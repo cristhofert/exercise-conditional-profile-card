@@ -39,7 +39,7 @@ function render(variables = {}) {
           <ul class="${variables.socialMediaPosition}">
             <li><a href="https://twitter.com/${variables.twitter}"><i class="fa fa-twitter"></i></a></li>
             <li><a href="https://github.com/${variables.github}"><i class="fa fa-github"></i></a></li>
-            <li><a href="https://linkedin.com/${variables.linkedin}"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://linkedin.com/in/${variables.linkedin}"><i class="fa fa-linkedin"></i></a></li>
             <li><a href="https://instagram.com/${variables.instagram}"><i class="fa fa-instagram"></i></a></li>
           </ul>
         </div>
@@ -60,15 +60,15 @@ window.onload = function() {
     // social media bar position (left or right)
     socialMediaPosition: "position-left",
     // social media usernames
-    twitter: null,
-    github: "alesanchezr",
-    linkedin: null,
-    instagram: null,
-    name: null,
-    lastname: null,
-    role: null,
-    country: null,
-    city: null
+    twitter: "https://twitter.com/cristhofert",
+    github: "https://github.com/cristhofert/",
+    linkedin: "https://www.linkedin.com/in/cristhofertravieso/",
+    instagram: "https://www.instagram.com/cristhofertravieso/",
+    name: "Nombre",
+    lastname: "Apellido",
+    role: "",
+    country: "",
+    city: ""
   };
   render(window.variables); //render the card for the first time
 
